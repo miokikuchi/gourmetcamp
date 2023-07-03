@@ -1,0 +1,231 @@
+.contents {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+body{
+  background-color:white;
+  min-width:1100px;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}  
+.header-title{
+  padding-top:20px;
+  padding-bottom:20px
+}
+.header-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.header-list{
+  display:flex;
+  gap:0 30px;
+  color:red;
+}
+
+.container{
+  width:1100px;
+  margin:30px auto;
+  display:flex;
+}
+main{
+  width:800px;
+  margin-right:40px;
+}
+
+aside{
+  width:260px;
+}
+
+
+form{
+  display:flex;
+  
+  justify-content: center;
+  /*align-items: stretch;*/
+  /*flex-wrap: nowrap;*/
+  /*flex-direction: row;*/
+}
+
+label {
+  margin-right:20px;
+  line-height: 26px;
+  font-weight:bold;
+}
+
+input[type=text] {
+  width:300px;
+}
+
+.box{
+  width: 1100px;
+  background-color: #fdf4f4;
+  text-align: center;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.submit{
+  background-color:red;
+  background-image:url(img/icon_search.png);
+  background-repeat:no-repeat;
+  background-position:5px center;
+  padding-left:28px;
+  color:white;
+  border:solid black 1px;
+}
+
+
+
+h2{
+  /*text-decoration: underline;*/
+  border-bottom: solid 2px red;
+  font-size: 20px;
+  margin-bottom:20px;
+  margin-top:10px;
+}
+
+.area{
+  display:flex;
+  gap:10px 15px;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+}
+.area a{
+  border:solid 1px #80808052;
+  display:block;
+  padding:5px 0px;
+  text-decoration: none;
+  color:black;
+  font-size:12px;
+  width:46px;
+  text-align:center;
+}
+
+.food_menu{
+  display:flex;
+  gap:0px 10px;
+  margin-bottom:20px;
+}
+
+.food_menu a{
+  text-decoration: none;
+  color:black;
+}
+ 
+.food_menu figure{
+  border: solid 1px #80808052;
+  text-align: center
+}
+
+.kodawari{
+  display:flex;
+  gap:10px 15px;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+}
+
+.kodawari a{
+  border:solid 1px #80808052;
+  display:inline-block;
+  padding:5px 5px;
+  text-decoration: none;
+  color:black;
+  font-size:12px;
+  text-align:center;
+}
+
+.writer{
+  display:flex;
+  gap:0px 20px;
+}
+
+.writer h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.writer section{
+  border:solid 1px #80808052;
+  text-align: center;
+  padding:20px;
+  
+}
+
+.review{
+  display:flex;
+  gap:0px 20px;
+}
+
+.review section{
+  border:solid 1px #80800052;
+  text-align:left;
+  padding:20px;
+}
+
+
+
+.review h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.review-first{
+  display:flex;
+  border-bottom:solid 5px #80800052;
+  padding-bottom:10px;
+  align-items:center;
+  gap:0 10px;
+}
+
+.review_1{
+  display:flex;
+  margin-top:10px;
+  gap:0 10px;
+}
+
+.review-second{
+  display:flex;
+  border-bottom:solid 5px #80800052;
+  padding-bottom:10px;
+  align-items:center;
+  gap:0 10px;
+}
+
+.review_2{
+  display:flex;
+  margin-top:10px;
+  gap:0 20px
+}
+
+.footer-top{
+  display:flex;
+  padding-top:40px;
+  padding-bottom:40px;
+  align-items:center;
+  justify-content:center;
+}
+
+.footer-list{
+   display:flex;
+   gap:40px
+}
+ 
+.hr-footer{
+  border-top: 2px solid #80808033;
+}
+
+.copyright{
+  width: 1100px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: #dcd5d5;
+  text-align: center;
+  align-items:center;
+  justify-content:center;
+}
+ 
+  
